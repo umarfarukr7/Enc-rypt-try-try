@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    font-family: 'Poppins' ;
+    
+} 
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
+}
+p{
+    color: darkgray;
+}
+
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-attachment: fixed;
+
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    padding-left: 2%;
+    margin-left: 5%;
+}
+.half-width img{
+    width: 100%;
+    
+}
+.orange-text{
+    color: rgba(255, 68, 0, 0.849);
+}
+.link-Button{
+    text-decoration: none;
+    background-image: linear-gradient(-45deg, orange ,orangered );
+    padding: 10px 20px;
+    border-radius: 5px ;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+section{
+    height: 500px;
+    padding-bottom: 200px;
+}
+.mid-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.spea-areah1{
+    color: orchid;
+    margin-left: 2%;
+}
+.single-card{
+    width: 40%;
+    height: 450px;
+    margin-top: 3%;
+    margin-left: 6%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    border-bottom-right-radius: 30px;
+    border-left-style: dotted ;
+    border-left-color:blueviolet;
+    border-image-slice: 10%;
+    background-color: honeydew;
+    float: left;
+}
+.single-card h1 {
+    margin-left: 2%;
+    font-weight: 700;
+    color:slategray;
+}
+.single-card p{
+    padding: 4px 8px;
+    color: slategray;
+}
+
+
+.single-card1{
+    width: 40%;
+    height: 450px;
+    margin-top: 3%;
+    margin-left: 8%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    border-top-right-radius: 30px;
+    border-left-style: solid ;
+    border-left-color:rgba(41, 231, 16, 0.568) ;
+    background-color: honeydew;
+    float: left;
+}
+.single-card1 h1 {
+    margin-left: 2%;
+    font-weight: 700;
+    color: slategray;
+
+}
+.single-card1 h3{
+    margin-left: 5%;
+    color: tomato;
+
+}
+.single-card1 p{
+    padding: 4px 8px;
+    color:slategray;
+}
+.spea-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-attachment: fixed;
+}
+.single-card h3{
+    margin-left: 5%;
+    color: tomato;
+
+}
+.footer{
+    background-image: linear-gradient( -45deg, rgba(166, 255, 0, 0.384) ,rgba(0, 4, 255, 0.849));
+    border-radius: 5px;
+    padding: 1.5px;
+}
+.footer p{
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-family: 'Lacquer' ;
+    
+}
